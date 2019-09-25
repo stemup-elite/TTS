@@ -65,7 +65,7 @@
         border-radius: 5px;
     }
     .pos-f {
-        position: fixed;
+        position: absolute;
     }
 </style>
 <body>
@@ -81,6 +81,7 @@
         <div class="request">
             <div class="row">
                 <div class="col-lg-6">
+
                     <div><p>Mệnh giá: <?php echo '<span class="text-1">'.$menhgia.'</span>' ?> VNĐ</p></div>
                     <div><p>Loại thẻ: <?php echo '<span class="text-1">'.$loaithe.'</span>' ?> </p></div>
                 </div>
