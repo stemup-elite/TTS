@@ -111,7 +111,7 @@
                 <input id="sbm-next" type="submit" value="Tiếp tục">
             </div>
         </div>
-
+Em chào mọi người. Em thử commit
     </div>
 </div>
 <?php $this->load->view('stemup/footer');?>
