@@ -18,11 +18,11 @@ function redrawrsnews(limit,page){
 	  	data: dt,
 	  	contentType: 'application/json',
 	  	success: function(dataq) {
-	  		var url = site_url+'home/tintuc'+'/';
+	  		var url = site_url+'/home/tintuc'+'/';
 	  		var html="";
 
 
-	  		console.log(dataq);
+	  		// console.log(dataq);
 	  		for(i=0;i<dataq.list.length;i++){
 	  			string = dataq.list[i]['description'];
 		  		html+='<div class="col-md-6"> ';
@@ -114,7 +114,7 @@ function redrawrsnews(limit,page){
 
 	  	},
 		error: function(data) {
-			console.log(data);
+			// console.log(data);
 			  
 		}
 	});
