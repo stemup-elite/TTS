@@ -41,7 +41,7 @@
                                 <h3 style="color:#3c8dbc;">Danh sách yêu cầu</h3>
                             </div>
                             <div class="col-md-5 col-lg-5" style="padding-right: 0">
-                                <form class="bd-search d-flex" style="margin: 20px 0 10px;" action="" method="get">
+                                <form class="bd-search d-flex" style="margin: 20px 0 10px;" action="http://localhost/stemup/index.php/sadmin/find_news" method="get">
                                     <div class="input-group">
                                         <input type="text" class="form-control" placeholder="Tìm kiếm" name="timkiem" id="search_n_timkiem">
                                         <!-- <div id="error_n" style="color: red;"></div> -->
@@ -58,19 +58,16 @@
                                     <thead>
                                     <tr style="background-color: rgba(60, 141, 188, 0.28);">
                                         <th class="ta-c">
-                                            Tên
+                                            Email
                                         </th>
                                         <th class="ta-c">
                                             Số điện thoại
                                         </th>
                                         <th class="ta-c">
-                                            Email
+                                            Loại thẻ
                                         </th>
                                         <th class="ta-c">
-                                            Địa chỉ
-                                        </th>
-                                        <th class="ta-c">
-                                            Trạng thái
+                                            Mệnh giá
                                         </th>
                                         <th class="ta-c">
                                             Ngày yêu cầu
