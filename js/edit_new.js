@@ -103,7 +103,7 @@ function editNew(id) {
                             // console.log(data);
                             if (data['mess'] == 'success') {
                                 alert("Sửa bài viết thành công!");
-                                location.reload();
+                               window.location.href=site_url+"/sadmin/manage_news";
                             } else {
                                 alert("Oops, Đã xảy ra một số lỗi! Bạn vui lòng thử lại!");
                             }
